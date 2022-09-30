@@ -1,0 +1,505 @@
+/* --- FUENTES --- */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pirata+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+/* --- FIN FUENTES --- */
+/* HEADER - NAVBAR */
+.header-config {
+  width: 60%;
+  margin: auto;
+}
+.header-config .nav-cont-1 {
+  border-bottom: #643a02 3px solid;
+  margin: auto;
+  padding: 15px 0;
+}
+.header-config .nav-cont-1 div ul li a {
+  font-family: "Bebas Neue", cursive;
+  color: #e2e2e2;
+  font-size: 22px;
+  transition: 0.2s ease-in;
+}
+.header-config .nav-cont-1 div ul li a:hover {
+  transform: scale(0.95);
+}
+.header-config .nav-cont-1 .navbar-cont-3 {
+  flex-grow: 0;
+}
+
+.carrito-compra {
+  background-color: #181818;
+  border-radius: 50%;
+  position: relative;
+}
+.carrito-compra .icono-cart {
+  color: white;
+  padding: 11px;
+}
+.carrito-compra .container-contador {
+  position: absolute;
+  left: 27px;
+  top: -8px;
+  bottom: 28px;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  font-weight: 600;
+  width: 19px;
+  text-align: center;
+  padding: 0px;
+}
+.carrito-compra .container-contador .contador {
+  margin-top: 0px;
+  margin-bottom: -16rem;
+  margin: -1px;
+  padding: -10px;
+  font-size: 12px;
+}
+
+/* FIN HEADER - NAVBAR */
+/* --- CAROUSEL HOME --- */
+.carousel-home {
+  width: 60%;
+  margin: auto;
+  border-bottom: #643a02 2px solid;
+}
+
+/* --- FIN CAROUSEL HOME --- */
+/* --- NEWS & RELEASES DEL HOME ---*/
+.news {
+  background-color: #181818;
+  width: 60%;
+  margin: auto;
+  border-bottom: #643a02 2px solid;
+}
+
+.releases {
+  background-color: #181818;
+  width: 60%;
+  margin: auto;
+  border-bottom: #643a02 2px solid;
+}
+
+.container-news,
+.container-releases,
+.container-catalog {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  align-content: center;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+div .card-cd-1 {
+  width: 230px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+  background-color: #2b2b2b;
+}
+
+.card-cd-1 img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-cd-1 .cd-title {
+  padding-top: 10px;
+}
+
+.card-cd-1 button {
+  border: none;
+  width: 115px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #b3b3b3;
+  padding: 5px 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-transform: initial;
+  color: black;
+  transition: 0.5s ease;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.card-cd-1 button:hover {
+  background-color: #cecece;
+  color: black;
+}
+
+/*ESTE ES EL H5*/
+.card-cd-1 .cd-title {
+  color: whitesmoke;
+  text-transform: inherit;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 0.83em;
+  font-weight: 600;
+}
+
+/* --- FIN NEWS & RELEASES DEL HOME ---*/
+/* ---INICIO FOOTER --- */
+.footer {
+  background-color: #272727;
+  width: 60%;
+  margin: auto;
+}
+
+.footer p {
+  margin-bottom: 0px;
+}
+
+.footer .section-s-d {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.direccion, .socials {
+  padding: 6px;
+}
+
+.socials .social-icono {
+  font-size: 25px;
+  padding: 4px;
+  color: #a1a1a1;
+}
+
+.socials .social-icono:hover {
+  color: white;
+}
+
+.direccion, .phone, .copyright {
+  color: white;
+}
+
+.copyright {
+  text-align: center;
+  background-color: #1f1f1f;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-top: 1px solid #303030;
+}
+
+/* ---FIN FOOTER --- */
+/* --- INICIO SECCION CATALOGO --- */
+.catalog {
+  display: flex;
+  flex-direction: column;
+  background-color: #181818;
+  width: 60%;
+  height: 100%;
+  margin: auto;
+  border-bottom: #643a02 2px solid;
+}
+
+.t-cds, .t-vinyl, .t-tapes {
+  padding-left: 30px;
+  font-family: "Alfa Slab One", cursive;
+  font-size: 20px;
+  color: #9b9b9b;
+}
+
+.lista-catalogo {
+  margin: auto;
+  width: 95%;
+  height: 50%;
+  text-align: center;
+  background: gray;
+  margin-bottom: 20px;
+}
+
+.container-catalog {
+  width: 95%;
+  margin: auto;
+}
+
+table, tr, td, th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  color: black;
+  font-size: 12px;
+  padding: 0 2px;
+}
+
+.list-title th {
+  background-color: dimgray;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#video-promo {
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.teto {
+  width: 80%;
+  margin: 0 10%;
+}
+
+/* --- FIN SECCION CATALOGO --- */
+/* --- INICIO SECCION NOSOTROS --- */
+.about-us {
+  background-color: #181818;
+  width: 60%;
+  height: 100%;
+  margin: auto;
+  border-bottom: #643a02 2px solid;
+}
+
+.container-about {
+  display: flex;
+  margin: 0;
+  align-items: center;
+  align-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.info-about {
+  margin: auto;
+  padding-bottom: 40px;
+  justify-items: center;
+  align-items: center;
+}
+
+.history,
+.map-location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  text-align: justify;
+}
+
+.about-us p {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: WHITE;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+.galeria-fotos .fotos img {
+  width: 45%;
+}
+
+/* --- FIN SECCION NOSOTROS --- */
+/* --- INICIO SECCION EVENTOS --- */
+.events {
+  background-color: #181818;
+  width: 60%;
+  height: 100%;
+  margin: auto;
+  border-bottom: #643a02 2px solid;
+}
+
+.container-flyers {
+  margin: auto;
+  width: 90%;
+}
+
+.flyer {
+  padding: 0;
+  transition: 0.4s ease-in;
+}
+
+.flyer:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 2px 5px black;
+}
+
+/* --- FIN SECCION EVENTOS --- */
+/* --- INICIO SECCION CONTACTO --- */
+.contact-us {
+  background-color: #181818;
+  width: 60%;
+  height: 100%;
+  margin: auto;
+  border-bottom: #643a02 2px solid;
+}
+
+.contact-us {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding-bottom: 15px;
+}
+
+.contact-sec {
+  width: 60%;
+  padding-left: 0;
+  padding: 15px 15px;
+  border-radius: 8px;
+  margin: auto;
+  background-color: rgba(80, 80, 80, 0.466);
+}
+
+.contacto label {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.contacto .casilleros, textarea {
+  width: 100%;
+}
+
+.contact-us form {
+  color: white;
+}
+
+.boton {
+  width: auto;
+  padding: 5px;
+  background-color: rgba(66, 92, 117, 0.822);
+  color: white;
+  border: 2px solid #516ece;
+  border-radius: 6px;
+}
+
+.boton:hover {
+  background-color: rgba(36, 55, 73, 0.822);
+}
+
+/* --- FIN SECCION CONTACTO --- */
+/* -------------------------- */
+/* ---ICON FIXED WHATSAPP --- */
+.fixed-icon {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  transition: all 0.3s;
+}
+
+.fixed-icon:hover {
+  transform: translateY(-5px);
+}
+
+/* --- FIN ICON FIXED WHATSAPP --- */
+/* ------------------------------- */
+/* ---------------------------- */
+/* --- INICIO DE EXTENDS --- */
+.titulo-seccion {
+  font-size: 40px;
+  text-transform: capitalize;
+  color: #c28618;
+  text-align: left;
+  font-family: "Pirata One", cursive;
+  font-weight: 400;
+  padding: 25px 0px 25px 50px;
+  background: linear-gradient(#000, #181818);
+  letter-spacing: 2px;
+}
+
+.subtitulo-seccion {
+  font-size: 25px;
+  text-transform: capitalize;
+  color: #99845d;
+  text-align: left;
+  font-family: "Pirata One", cursive;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+/* --- FIN DE EXTENDS --- */
+/* ---------------------------- */
+/* ------------------------- */
+/* --- INICIO  DE MIXINS ---*/
+body {
+  background-image: url("../img/bgimage.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  margin: 0px;
+  padding: 5px 0;
+}
+
+/* --- FIN DE MIXINS ---*/
+/* ------------------------- */
+/* -------------------- */
+/* SECCION MEDIA QUERYS*/
+@media only screen and (max-width: 960px) {
+  .header-container,
+.header-config,
+.carousel-home,
+.news,
+.releases,
+.catalog,
+.about-us,
+.events,
+.contact-us,
+.footer {
+    width: 70% !important;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .header-container,
+.header-config,
+.carousel-home,
+.news,
+.releases,
+.catalog,
+.about-us,
+.events,
+.contact-us,
+.footer {
+    width: 90% !important;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .header-container,
+.header-config,
+.carousel-home,
+.news,
+.releases,
+.catalog,
+.container-catalog,
+.lista-catalogo,
+.about-us,
+.events,
+.contact-us,
+.footer {
+    width: 100% !important;
+  }
+
+  .video-promo {
+    width: 80%;
+  }
+
+  .section-s-d {
+    display: block;
+  }
+
+  .fixed-icon {
+    width: 42px;
+    height: 42px;
+  }
+
+  .contact-sec {
+    width: 90%;
+  }
+
+  div .card-cd-1 {
+    width: 262px;
+  }
+}
+/*  Medias guerys para la seccion de about-us
+que contiene grid */
+/* FIN SECCION MEDIA QUERYS*/
+/* -------------------- */
+
+/*# sourceMappingURL=style.css.map */
